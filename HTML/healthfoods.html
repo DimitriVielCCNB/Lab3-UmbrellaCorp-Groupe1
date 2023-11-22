@@ -1,26 +1,34 @@
-<!-- COMPLETE LAYOUT FOR PRODUCTS , CAN BE COPIED AND PASTE FOR NEXT PAGES  -->
+
+<!-- MAIN PAGE IS ALMOST COMPLETED , FEW ADJUSTEMENTS NEEDED -->
+<!-- CAN CONTACT THE COMPANY BY CLICKING ON THE EMAIL AT THE BOTTOM -->
+<!-- IMAGES AND NAV BAR CHANGED -->
+<!-- ALL DROPDOWN MENU HAVE BEEN ADDED TO PAGES , ALL YOU NEED IS TO CHANGE THE CATEGORIES -->
+
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Globe X</title>
+    <title>Umbrella Corp.</title>
     
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/Style.css">  
     
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
 
     <!-- NAVIGATIONS -->
 
 <div class="header">
 <div class="container">
-
     <div class="navbar">
         <div class="logo">
-            <img src="../image/logo.jpg" width="175px" height="120px">
+            <img src="../Images/logo.png" width="175px" height="120px">
             
         </div>
         <nav class="ul">
@@ -28,140 +36,170 @@
                 <li><a href="../HTML/Homepage.html" class="navhover">Home</a></li>
                 <div class="dropdown">
                     <!--  <button class="dropbtn">House Interior</button> -->
-                        <li><a href="#" class="navhover ">Consumers</a></li> 
+                        <li><a href="../HTML/Consumer.html" class="navhover ">Consumers</a></li> 
                      <div class="dropdown-content">
-                       <a href="#">Cosmetic</a>
-                       <a href="#">Informatic</a>
-                       <a href="#">Chemicals</a>
-                       <a href="#">Health Foods</a>
-                       <a href="#">Medical Equipment</a>
+                       <a href="../HTML/cosmetic.html">Cosmetic</a>
+                       <a href="../HTML/informatic.html">Informatic</a>
+                       <a href="../HTML/chemicals.html">Chemicals</a>
+                       <a href="../HTML/healthfoods.html">Health Foods</a>
+                       <a href="../HTML/medical.html">Medical Equipment</a>
                      </div>
                    </div>
                    <div class="dropdown">
                    
-                <li><a href="" class="navhover ">Military</a></li> 
+                <li><a href="../HTML/millitary.html" class="navhover ">Military</a></li> 
                      
                 
             
-                <li><a href="../html/contactus.html" class="navhover">About Us</a></li>
+                <li><a href="../HTML/AboutUs.html" class="navhover">About Us</a></li>
 
             </ul>
         </nav>
-       
+    
+     </div>
+
+     <!-- LA BOITE POUR LE HAUT DE LA PAGE AVEC LA PHOTO DE PERSONNAGE ET AUSSI LA PHRASE PRINCIPALE DU SITE -->
+    
+    <div class="row">
+        <div class="col-2">
+            <h1>Umbrella Corp,<br> For Funding all Your Needs ! </h1>
+            <p>From funding your most reputable hospitals and shopping centers,
+            <br> To Your Closest Military institute </p>
+    
+               
+        </div>
       
+        <div class="col-2">
+            <img src="../Images/header.webp">
+        </div>
     </div>
   </div>
 </div>
 
 
 
+<!-- LES OFFER PLUS LATEST CONCEPTIONS -->
 
  <div class="small-container">
-
-    <!-- LA CASE DE SELCTION DE PREFERENCE ET LE TITRE DE LA PAGE -->
-   
-    <div class="row row-2">
-        <h2 class="subtitle">Exterior</h2>
-        <select>
-            <option>Best Selling</option>
-            <option>Recommended</option>
-            <option>Newest</option>
-            <option>Price : Low to High</option>
-            <option>Price : High to Low</option>
-        </select>
-    </div>
-
-  <!-- QUATRE PREMIER ITEMS -->
+     <h2 class="title">Some of Our Offered Products</h2>
+     <p class="p0"> Only the Best on the Market </p>
      <div class="row">
          <div class="col-4">
-            <img src="../image/antenna.JPG">
-            <h4 class="p2">Antenna</h4>
-            <p class="p2">200.00$</p>
-            <br>
+            <img src="../Images/cosmetic.jpg">
+            <h4>Cosmetic</h4>
+            <p class="p3"></p>
          </div>
          <div class="col-4">
-            <img src="../image/bbq1.JPG">
-            <h4 class="p2">BBQ</h4>
-            <p class="p2">98.99</p>
-            <br>
+            <img src="../Images/informatic.jpg">
+            <h4>Informatic</h4>
+            <p class="p3"></p>
          </div>
          <div class="col-4">
-            <img src="../image/bouncy.JPG">
-            <h4 class="p2">Bouncy Castle</h4>
-            <p class="p2">340$</p>
-            <br>
+            <img src="../Images/chemicals.jpg">
+            <h4>Chemicals</h4>
+            <p class="p3"></p>
          </div>
          <div class="col-4">
-            <img src="../image/door.JPG">
-            <h4 class="p2">House Door</h4>
-            <p class="p2">80$</p>
-            <br>
+            <img src="../Images/healthfoods.jpg">
+            <h4>Health foods</h4>
+            <p class="p3"></p>
+         </div>
+         <div class="col-4">
+            <img src="../Images/medequip.jpg">
+            <h4>Medical Equipment</h4>
+            <p class="p3"></p>
          </div>
         
      </div>
-<!-- DEUXIEME LIGNE DITEMS -->
-   
+           
+
+
+
+
+         <!-- latest -->
+
+         <hr class="hr2">
+     <h2 class="title">Products On Sale !!!</h2>
      <div class="row">
         <div class="col-4">
-           <img src="../image/fence.JPG">
-           <h4 class="p2">Fence</h4>
-           <p class="p2">37$</p>
-          <br>
-         </div>
-         <div class="col-4">
-           <img src="../image/garage.JPG">
-           <h4 class="p2">Garage</h4>
-           <p class="p2">5200$$</p>
-           <br>
-         </div>
-         <div class="col-4">
-            <img src="../image/grass.JPG">
-            <h4 class="p2">Grass</h4>
-            <p class="p2">20$ per square feet </p>
-            <br>
-          </div>
-          <div class="col-4">
-            <img src="../image/hose.JPG">
-            <h4 class="p2">Hose</h4>
-            <p class="p2">30$</p>
-            <br>
-          </div>
-      
-    </div>
+           <img src="../image/tv.gif">
+           <h4 class="p2">Television</h4>
+           <p class="p5">59.99$</p>
+           <p class="p4">On Sale for 29.99$</p>
+
+           
+        </div>
+        <div class="col-4">
+           <img src="../image/couch.jpg">
+           <h4 class="p2">Couch</h4>
+           <p class="p5">129.99$</p>
+           <p class="p4">On Sale for 79.99$</p>
+          
+        </div>
+        <div class="col-4">
+           <img src="../image/duff beer.webp">
+           <h4 class="p2">Duff Beer</h4>
+           <p class="p5">9.99$</p>
+           <p class="p4">On Sale for 2.99$</p>
+           
+        </div>
+        <div class="col-4">
+           <img src="../image/bbq.webp">
+           <h4 class="p2">BBQ Pit Kit</h4>
+           <p class="p5">69.99$</p>
+           <p class="p4">On Sale for 25.99$</p>
+         
+        </div>
+
+     </div>
+     <div class="row">
+        <div class="col-4">
+           <img src="../image/saxo.jpg">
+           <h4 class="p2">Saxophone</h4>
+           <p class="p5">199.99$</p>
+           <p class="p4">On Sale for 87.99$</p>
+          
+        </div>
+        <div class="col-4">
+           <img src="../image/treehouse.webp">
+           <h4 class="p2">Tree House Kit</h4>
+           <p class="p5">599.99$</p>
+           <p class="p4">On Sale for 279.99$</p>
+          
+        </div>
+        <div class="col-4">
+           <img src="../image/skateboard.png">
+           <h4 class="p2">Skateboard</h4>
+           <p class="p5">99.99$</p>
+           <p class="p4">On Sale for 44.99$</p>
+          
+        </div>
+        <div class="col-4">
+           <img src="../image/car.jpg">
+           <h4 class="p2">Used Car</h4>
+           <p class="p5">4499.99$</p>
+           <p class="p4">On Sale for 2389.99$</p>
+           
+        </div>
+     </div>
+ </div>
 
 
-        <!-- Barre de bouttons pour les pages -->
-            
-            
-                <div class="bouton">
-                    <span>1</span>
-                    <span>2</span>
-                    <span>3</span>
-                    <span>4</span>
-                    <!-- Fleche dans la barre en bas -->
-                    <span>&#8594;</span> 
-
-                </div>
-            </div>
-        </div> 
-    </div> 
-</body>
-
-<!-- FOOTERS -->
+<!-- footer -->
 
 <div class="footer">
     <div class="container">
         <div class="row">
             <div class="footer-col-1">
                 <h3>Contact Us Via Email : </h3>
-                <a href="mailto:info@globex.com" class="email">info@globex.com</a>
+                <a href="mailto:info@umbrellacorp.com" class="email">info@umbrellacorp.com</a>
                 
-                <p>15201 Maple System Road, Cypress Creek, 92688 US</p>
+                <p>0911 Corp Road, Tokyo, 92688, JAPAN</p>
                 <p>Phone : (555)555-5555 </p>
-             
+        
             </div>
             <div class="footer-col-2">
-                <img src="../image/logo.jpg">
+                <img src="../Images/logopng.png">
                 <p>Your Main Providers Of All necessary Goods ! </p>
             </div>
             <div class="footer-col-3">
@@ -183,9 +221,9 @@
                 </ul>
             </div>
         </div>
-
+        <!-- ceci represente la ligne en bas au dessus du copyright -->
         <hr>
-        <p class="copyright">GlobeX © - Company</p>
+        <p class="copyright">Umbrella Corp © 2023</p>
     </div>
 </div>
 
