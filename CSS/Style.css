@@ -344,7 +344,7 @@
         
         display: inline-block;
         font-weight: bolder;
-        border: 2px solid #E87C3E;
+        border: 2px solid black;
         margin-left: 10px;
         margin-bottom: 10px;
         width: 40px;
@@ -356,7 +356,7 @@
     }
 
     .bouton:hover span:hover{
-        background-color: #E87C3E;
+        background-color: #8D2121;
         color: black;
     }
 
