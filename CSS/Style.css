@@ -417,6 +417,7 @@
 
 .h2{
     padding-bottom: 25px;
+    padding-top: 50px;
 }
 
 .h4{
@@ -443,6 +444,7 @@
     margin: 4px 2px;
     cursor: pointer;
     transition: transform 0.5s;
+    
    
 
 }
@@ -460,6 +462,7 @@
     margin: 4px 2px;
     cursor: pointer;
     transition: transform 0.5s;
+    
 
 
 }
@@ -467,12 +470,12 @@
 .Proceed:hover{
 
     transform: translateY(-5px);
-
+    color: greenyellow;
 
 }
 
 .Return:hover{
 
     transform: translateY(-5px);
-
+    color: red;
 }
