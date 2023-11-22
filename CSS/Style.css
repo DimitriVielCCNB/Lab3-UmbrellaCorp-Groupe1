@@ -235,6 +235,7 @@
 
     .col-4 img:hover{
         transform: translateY(-5px);
+        transform: scale(1.05);
 
     }
 
@@ -405,7 +406,7 @@
   /* ------------Military------------------ */
 
   .alert{
-    background-color: darkgrey;
+    background-color: rgb(73, 73, 73);
     font-family: 'PT Serif', serif;
 }
 
@@ -417,12 +418,7 @@
 
 }
 
-.test h2{
 
-    font-size: xx-large;
-    font-weight: bolder;
-   
-}
 
 .h2{
     padding-bottom: 25px;
@@ -435,13 +431,10 @@
 
 }
 
-.test h4{
 
-    font-size: larger;
-    font-weight: bold;
-}
 
 .Proceed{
+
 
     background-color:  black;
     border: none;
@@ -480,7 +473,7 @@
 .Proceed:hover{
 
     transform: translateY(-5px);
-    color: greenyellow;
+    color: rgb(142, 223, 22);
 
 }
 
@@ -492,6 +485,7 @@
 
 .warning{
     color: red;
+    font-size: x-large;
 
 }
 
@@ -500,4 +494,9 @@
     color: rgb(245, 245, 29);
     font-size: xx-large;
     font
+}
+
+button{
+
+    width: 100px;
 }
