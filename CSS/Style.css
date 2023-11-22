@@ -427,6 +427,7 @@
 .h2{
     padding-bottom: 25px;
     padding-top: 50px;
+    font-weight: bolder;
 }
 
 .h4{
@@ -487,4 +488,16 @@
 
     transform: translateY(-5px);
     color: red;
+}
+
+.warning{
+    color: red;
+
+}
+
+.symbol{
+
+    color: rgb(245, 245, 29);
+    font-size: xx-large;
+    font
 }
