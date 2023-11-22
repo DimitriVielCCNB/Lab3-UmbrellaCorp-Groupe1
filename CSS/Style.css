@@ -393,4 +393,77 @@
     background-color: #3e8e41;
   }
 
-  /* ------------Media------------------ */
+  /* ------------Military------------------ */
+
+  .alert{
+    background-color: darkgrey;
+    font-family: 'PT Serif', serif;
+}
+
+
+.test{
+
+    text-align: center;
+
+
+}
+
+.test h2{
+
+    font-size: xx-large;
+    font-weight: bolder;
+   
+}
+
+.test h4{
+
+    font-size: larger;
+    font-weight: bold;
+}
+
+.Proceed{
+
+    background-color:  black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: transform 0.5s;
+   
+
+}
+
+.Return{
+
+    background-color:  black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+
+}
+
+.Proceed:hover{
+
+    transform: translateY(-5px);
+
+
+}
+
+.Return:hover{
+
+    transform: translateY(-5px);
+
+}
