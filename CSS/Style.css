@@ -229,8 +229,15 @@
         width: 100%;
         height: 300px;
         border: 1px solid black;
+        transition: transform 0.5s;
     
     }
+
+    .col-4 img:hover{
+        transform: translateY(-5px);
+
+    }
+
     
     .more{
         text-align: center;
