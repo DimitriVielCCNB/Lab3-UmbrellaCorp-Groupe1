@@ -20,3 +20,17 @@ voici la gamme de produits qu'ils planifient vendre dans la section para-militai
 - etc
 pour plus de détails sur les produits offerts par Umbrella, voir le site inclus:
 https://residentevil.fandom.com/wiki/Umbrella_Corporation#Products
+
+
+
+**************Taches:
+
+Nous avons chacun faite nos page individuel, mais le lab en total, nous avons tout contribuer de notre facon pour l'Index/CSS ensemble avant de completer.
+
+Lahcen - Homepage & IT products
+Denis - Homepage, Consumer & Military section
+Martin Lapointe - Health Foods
+Martin Lepage - Medical page & Chemical page
+Maryssa - Contact us page & Cosmetic page
+
+Umbrella, founded in 1968, initially focused on illegal research into the Progenitor virus and bio-organic weapons. However, it extended its activities to various sectors such as computers, weapons, aerospace, and cosmetics, becoming the leading medical and cosmetics company worldwide. Despite its public image, Umbrella secretly develops genetically modified biological weapons, selling them to para-military groups and Third World countries. This covert side of the business remains unknown to the public and most employees. Through corruption, the company conceals its illegal activities and obtains what it desires. To protect its facilities and personnel, evacuate civilians during biological accidents, eliminate troublesome individuals, and maintain order, Umbrella relies on a private army formed by mercenaries, ex-soldiers from Communist countries, and ex-convicts who have been released on bribes
